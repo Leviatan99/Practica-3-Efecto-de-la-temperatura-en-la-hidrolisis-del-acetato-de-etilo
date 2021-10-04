@@ -32,27 +32,59 @@
     Con esta gráfica se tiene el ajuste de polinomio:
             $$  Conductividad = m[x] + b$$
 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.65]{Figuras/FiguraTodos.pdf}
+            \caption{Diagrama de la pr\'{a}ctica}
+        \end{figure}
+
 \input{Tables/regresion.tex}
 
+    Despejando para la concentración tenemos que:
+            $$ [x]= \dfrac{Conductividad + b}{m}$$
+            
+    Se calculan las concentraciones siguientes:\\
+
+\input{Tables/concentracion.tex}
+
+    \item Utilizando las concentraciones anteriormente calculadas, determinar el orden de
+    reacción y la constante de velocidad por el método integral gráfico.\\
+    Para calcular el orden de reacción se gráfica $t$ vs $1/C_a$\\
+
+\input{Tables/inversa_concentracion.tex}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale=0.65]{Figuras/Ctodos.pdf}
+        \caption{Diagrama de la pr\'{a}ctica}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale = 0.8]{Figuras/concentracion_todos.pdf}
+        \caption{Diagrama de la pr\'{a}ctica}
+    \end{figure}
+
+
+
+\input{Tables/regresion_integral.tex}
+
+    Recordemos que la pendiente  es la contante cinética $ k $, por  el valor de $ r^{2}$  podemos decir que la reacción es de \textbf{orden II}
+    \item Calcular el factor de frecuencia (A) y la energía de activación (Ea).\\
+    Para calcular los parámetros es necesario tomar las constantes y las temperaturas
+    anteriores, aplicando $ln(k)$   y la inversa de la temperatura. Se obtuvo los 
+    siguientes datos:\\
+
+\input{Tables/regresion_logaritmos.tex}
+
+Para determinar el parámetro $A$  tenemos que el intercepto $b= 8.8544 = ln(A) $ , despejando tenemos que $A= 7005.144$. Para determinar la energia de activación tenemos que $m= -E_{a}/R$
+despejando  tenemos que $E_{a}= 20227.030 J/mol*K$
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale = 0.8]{Figuras/ln_k_t.pdf}
+        \caption{Diagrama de la pr\'{a}ctica}
+    \end{figure}
+
+
 \end{enumerate}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.65]{Figuras/FiguraTodos.pdf}
-    \caption{Diagrama de la pr\'{a}ctica}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.65]{Figuras/Ctodos.pdf}
-    \caption{Diagrama de la pr\'{a}ctica}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=1]{Figuras/concentracion_todos.pdf}
-    \caption{Diagrama de la pr\'{a}ctica}
-\end{figure}
-
-

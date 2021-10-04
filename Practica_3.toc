@@ -5,3 +5,4 @@
 \contentsline {subsection}{\numberline {2.2}Procedimiento}{2}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Diagrama}{3}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Cálculos}{3}{section.3}%
+\contentsline {section}{\numberline {4}Conclusión}{9}{section.4}%

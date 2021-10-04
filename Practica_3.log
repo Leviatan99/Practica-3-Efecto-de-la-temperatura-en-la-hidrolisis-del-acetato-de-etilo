@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.22)  2 OCT 2021 21:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.22)  3 OCT 2021 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1565,6 +1565,19 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./Practica_3.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
 )
 \openout1 = `Practica_3.aux'.
 
@@ -1918,37 +1931,31 @@ File: Figuras/calibracion_todos.pdf Graphic file (type pdf)
 <use Figuras/calibracion_todos.pdf>
 Package pdftex.def Info: Figuras/calibracion_todos.pdf  used on input line 28.
 (pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
- (./Tables/regresion.tex) [4pdfTeX warning (ext4): destination with the same id
-entifier (name{table.1}) has been already used, duplicate ignored
+<Figuras/FiguraTodos.pdf, id=117, 794.97pt x 722.7pt>
+File: Figuras/FiguraTodos.pdf Graphic file (type pdf)
+<use Figuras/FiguraTodos.pdf>
+Package pdftex.def Info: Figuras/FiguraTodos.pdf  used on input line 37.
+(pdftex.def)             Requested size: 516.72438pt x 469.74944pt.
+
+Overfull \hbox (30.46677pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 
+l.40 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.36 
-      <./Figuras/calibracion_todos.pdf>]
-<Figuras/FiguraTodos.pdf, id=165, 794.97pt x 722.7pt>
-File: Figuras/FiguraTodos.pdf Graphic file (type pdf)
-<use Figuras/FiguraTodos.pdf>
-Package pdftex.def Info: Figuras/FiguraTodos.pdf  used on input line 42.
-(pdftex.def)             Requested size: 516.72438pt x 469.74944pt.
+l.40 
+      <./Figuras/calibracion_todos.pdf>] (./Tables/regresion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
-Overfull \hbox (30.46677pt too wide) in paragraph at lines 42--43
- [][] 
- []
-
-<Figuras/Ctodos.pdf, id=166, 794.97pt x 722.7pt>
-File: Figuras/Ctodos.pdf Graphic file (type pdf)
-<use Figuras/Ctodos.pdf>
-Package pdftex.def Info: Figuras/Ctodos.pdf  used on input line 48.
-(pdftex.def)             Requested size: 516.72438pt x 469.74944pt.
-
-Overfull \hbox (30.46677pt too wide) in paragraph at lines 48--49
- [][] 
  []
 
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
@@ -1956,54 +1963,139 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 
+l.47 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.5
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.51 
-      <./Figuras/FiguraTodos.pdf>]
-<Figuras/concentracion_todos.pdf, id=233, 462.52798pt x 346.89601pt>
+l.47 
+      <./Figuras/FiguraTodos.pdf>] (./Tables/concentracion.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
+
+ []
+
+(./Tables/inversa_concentracion.tex)
+<Figuras/Ctodos.pdf, id=232, 794.97pt x 722.7pt>
+File: Figuras/Ctodos.pdf Graphic file (type pdf)
+<use Figuras/Ctodos.pdf>
+Package pdftex.def Info: Figuras/Ctodos.pdf  used on input line 58.
+(pdftex.def)             Requested size: 516.72438pt x 469.74944pt.
+
+Overfull \hbox (30.46677pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+     pdfTeX warning (ext4): destination with the same identifier (name{table.3}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.61 
+     ]
+<Figuras/concentracion_todos.pdf, id=240, 462.52798pt x 346.89601pt>
 File: Figuras/concentracion_todos.pdf Graphic file (type pdf)
 <use Figuras/concentracion_todos.pdf>
-Package pdftex.def Info: Figuras/concentracion_todos.pdf  used on input line 54
+Package pdftex.def Info: Figuras/concentracion_todos.pdf  used on input line 64
 .
-(pdftex.def)             Requested size: 462.52684pt x 346.89516pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+(pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.57 
-      <./Figuras/Ctodos.pdf>]) [7pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.7}) has been already used, duplicate ignored
+l.67 
+      <./Figuras/Ctodos.pdf>] (./Tables/regresion_integral.tex)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 
+     
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+
+ []
+
+(./Tables/regresion_logaritmos.tex)
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 
+     
+? 
+<Figuras/ln_k_t.pdf, id=305, 462.52798pt x 346.89601pt>
+File: Figuras/ln_k_t.pdf Graphic file (type pdf)
+<use Figuras/ln_k_t.pdf>
+Package pdftex.def Info: Figuras/ln_k_t.pdf  used on input line 85.
+(pdftex.def)             Requested size: 370.02287pt x 277.51718pt.
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.166 \end{document}
-                     <./Figuras/concentracion_todos.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+l.88 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.9
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.88 
+      <./Figuras/concentracion_todos.pdf>]) (./sections/conclusion.tex)
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 \end{document}
+                     <./Figuras/ln_k_t.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (./Practica_3.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
-Package rerunfilecheck Info: File `Practica_3.out' has not changed.
-(rerunfilecheck)             Checksum: 4FD14AF6366F64613BEB6FFA0A195EBA;326.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `Practica_3.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+Package rerunfilecheck Info: Checksums for `Practica_3.out':
+(rerunfilecheck)             Before: 4FD14AF6366F64613BEB6FFA0A195EBA;326
+(rerunfilecheck)             After:  A477DA40856CEFFA3E4075FC5C69BDD9;374.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 32544 strings out of 481239
- 730777 string characters out of 5920377
- 1143293 words of memory out of 5000000
- 47108 multiletter control sequences out of 15000+600000
+ 32583 strings out of 481239
+ 731537 string characters out of 5920377
+ 1146293 words of memory out of 5000000
+ 47121 multiletter control sequences out of 15000+600000
  672854 words of font info for 150 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,12n,98p,727b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2015,10 +2107,10 @@ s/type1/public/kpfonts/jkpssbn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/kpfonts/jkpssmn8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/
 utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Practica_3.pdf (7 pages, 228003 bytes).
+Output written on Practica_3.pdf (9 pages, 248468 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 463 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
