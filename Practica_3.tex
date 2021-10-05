@@ -23,14 +23,8 @@
 \usepackage{chemfig}
 \usepackage{pgfplots}
 \usepackage{booktabs}
-%\usepackage{color}      % Definición de colores
-%    \hypersetup{colorlinks=true, linkcolor=[rgb]{0,0,1}, citecolor=[rgb]{0,0,1}}
-\usepackage{xcolor}		% Permite definir un color para utilizarlo dentro del documento.
-%    \definecolor{gris}{RGB}{70,70,70}	    % Definiendo el color gris
-%    \definecolor{negro}{RGB}{40,40,40}		% Definiendo el color negro
-
-%%%%%%%% Modificación de los espacios de los títulos de secciones %%%%%%%%%%
-\usepackage{titlesec}		% Permite reconfigurar  los títulos de las secciones y subsecciones
+\usepackage{xcolor}		
+\usepackage{titlesec}		
 %% =============================================================================
 %%  OTRA COSA QUE NO SEAN PAKETES
 %% =============================================================================
@@ -41,15 +35,13 @@
 \rhead{I5839 D-03}
 \lhead{Laboratorio de reactores(2020B)}
 \rfoot{\thepage}
-%\renewcommand\thesection{\Roman{section}}	% Numeración romana en las secciones
-%\renewcommand\thesubsection{\Roman{subsection}}		% Numeración romana en las subsecciones
-\titlespacing*{\section}{0pt}{2.5mm}{0mm}	% Espaciado del título {espacio izquierdo}{arriba del título}{abajo del título}
+\titlespacing*{\section}{0pt}{2.5mm}{0mm}	
 \titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{}
 \titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{}
-%\newcommand{\colorhrule}[3]{\begingroup\color{#1}\rule{#2}{#3}\endgroup}
 
-\setlength{\intextsep}{1mm} % Distancia superior e inferior en objetos flotantes
-\setlength{\columnsep}{5mm} % Separación entre columnas del documento
+
+\setlength{\intextsep}{1mm} 
+\setlength{\columnsep}{5mm} 
 \spanishdecimal{.}
 %% =============================================================================
 %%    INICIO DEL DOCUMENTO
@@ -60,32 +52,32 @@
 %======================
 %       PORTADA
 %======================
-\sloppy     % Evita que las palabras se corten al saltar de línea.
-\begin{center}
-  \begin{tabular}{cc}
+\sloppy  
 
-\multirow{2}{3.5cm}{\includegraphics[width=3cm]{Figuras/udg.pdf}}	& \huge{\textsc{\textbf{Universidad de Guadalajara}}}\\
- & \scriptsize{\textsc{CENTRO UNIVERSITARIO DE CIENCIAS EXACTAS E INGENIERÍAS}}\\[5mm]
- & \Large{\textsf{\textbf{Práctica 4. Distribución de tiempos de residencia
-}}}\\
- & \\ \vspace{5mm}
- & \small{\textsf{Alejandro Leviatán Gallifrey  [213521903]}}\\
- & \small{\textsc{Ingeniería Química $|$  - Laboratorio de reactores Químicos}}\\
- & \today\\
- & \small{\textit{Profersor:}}  \textbf{\small{Alejandro Nava Tellez }}\\
-  \end{tabular}
+\begin{center}
+    \begin{tabular}{cc}
+        \multirow{2}{3.5cm}{\includegraphics[width=3cm]{Figuras/udg.pdf}}	& \huge{\textsc{\textbf{Universidad de Guadalajara}}}\\
+        & \scriptsize{\textsc{CENTRO UNIVERSITARIO DE CIENCIAS EXACTAS E INGENIERÍAS}}   \\ [5mm]
+        & \Large{ \textsf{\textbf{Práctica 3. Efecto de la temperatura } } }             \\
+        & \Large{ \textsf{\textbf{en la hidrólisis del acetato de etilo } } }            \\
+        &                                                                                \\
+        & \small{\textsf{Mojica Muñoz Erika Patricia [213402515] } }                     \\
+        & \small{\textsf{Pedraza Herrera Leonardo Daniel [216784893] } }                 \\ 
+        & \small{\textsc{Ingeniería Química $|$  - Laboratorio de reactores Químicos} }  \\
+        & \today                                                                         \\
+        & \small{\textit{Profersor:}}  \textbf{\small{Alejandro Nava Tellez } }          \\
+    \end{tabular}
 \end{center}
 
-%\begin{center}
- % \colorhrule{negro}{16.5cm}{1.2pt}
-%\end{center}
 
 \rule{\linewidth}{0.75mm}
 
 \tableofcontents
     A partir de observaciones experimentales, Arrhenius estableció la dependencia que la
     constante de velocidad específica de una reacción tiene con la temperatura:
-            \[k=A exp \left( \frac{-E_{a}}{RT}\right ) \]
+            
+            $$ k=A exp \left( \frac{-E_{a}}{RT}\right ) $$
+
     Donde $k$ es la constante de velocidad, $A$ el denominado factor de frecuencia, $E_a$ la
     energía de activación, $R$ la constante de los gases y $T$ la temperatura expresada en
     Kelvin. Si se realizan experimentos a diferentes temperaturas, se pueden determinar
@@ -93,7 +85,7 @@
     en su forma logarítmica:
             $$ ln k =ln A - \dfrac{E_a}{R} \dfrac{1}{T} $$
 
-            
+
 \input{sections/Objetivos.tex}
 \input{sections/Prerreporte.tex}
 \input{sections/Calculos.tex}
